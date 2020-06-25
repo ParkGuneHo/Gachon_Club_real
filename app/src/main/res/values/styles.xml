@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 카드 뷰 -->
+    <style name="CustomCardViewSetting" parent="Base.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">@dimen/radius_10dp</item>
+        <item name="contentPadding">@dimen/padding_15dp</item>
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+
+    <!-- 탭 스타일 -->
+    <style name="CustomTabSetting">
+        <item name="android:textSize">@dimen/title_20sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <!-- 제목 스타일 -->
+    <style name="CustomTitleSetting">
+        <item name="android:textSize">@dimen/title_20sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- 내용 스타일 -->
+    <style name="CustomContentSetting">
+        <item name="android:textSize">@dimen/content_15sp</item>
+        <item name="android:textColor">@color/colorBasic</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
